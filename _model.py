@@ -177,5 +177,6 @@ print(f"Final Test Accuracy: {final_accuracy * 100:.2f}%")
 final_train_accuracy = history.history['accuracy'][-1]
 final_val_accuracy = history.history['val_accuracy'][-1]
 
+
 print(f"Final Training Accuracy: {final_train_accuracy * 100:.2f}%")
 print(f"Final Validation Accuracy: {final_val_accuracy * 100:.2f}%")
